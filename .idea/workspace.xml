@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,17 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/math/problems/FindLowestDifference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
+            <state relative-caret-position="285">
               <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/math/problems/LowestNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="525">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="83" lean-forward="true" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+            <state relative-caret-position="270">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -126,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/math/problems/Factorial.java" />
         <option value="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" />
         <option value="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/math/problems/LowestNumber.java" />
       </list>
     </option>
   </component>
@@ -202,23 +203,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindMissingNumber">
+  <component name="RunManager" selected="Application.LowestNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,6 +266,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.LowestNumber" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -302,19 +303,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConnectToMongoDB" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.FindLowestDifference" />
       <item itemvalue="Application.FindMissingNumber" />
+      <item itemvalue="Application.LowestNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LowestNumber" />
         <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.FindLowestDifference" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.ConnectToMongoDB" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +345,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09668508" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04834254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,7 +353,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872927" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Mongo Explorer" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -484,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/LowestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/math/problems/PrimeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -498,10 +492,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/problems/FindLowestDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -512,17 +513,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/FindLowestDifference.java">
+    <entry file="file://$PROJECT_DIR$/src/math/problems/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+        <state relative-caret-position="345">
+          <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/math/problems/LowestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="83" lean-forward="true" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+        <state relative-caret-position="525">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
