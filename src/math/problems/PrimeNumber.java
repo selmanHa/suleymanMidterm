@@ -13,6 +13,14 @@ public class PrimeNumber {
 		 *
 		 */
 
+		for (int a = 2; a <= 100000; a++){
+			if(a%2 == 0){
+				System.out.println(a+" is not a prime");
+			}else{
+				System.out.println(a+" is a prime number");
+			}
+		}
+
 	}
 
 }
