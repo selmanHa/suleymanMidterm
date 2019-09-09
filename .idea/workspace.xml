@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="" />
+    <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -73,18 +57,19 @@
         <option value="$PROJECT_DIR$/src/datastructure/CollectionView.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseArrayList.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseMap.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/UseQueue.java" />
         <option value="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
         <option value="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" />
         <option value="$PROJECT_DIR$/src/design/EmployeeInfo.java" />
         <option value="$PROJECT_DIR$/src/string/problems/Anagram.java" />
         <option value="$PROJECT_DIR$/src/design/FortuneEmployee.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/UseQueue.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/Palindrome.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="113" />
+    <option name="x" value="116" />
+    <option name="y" value="143" />
     <option name="width" value="1440" />
     <option name="height" value="816" />
   </component>
@@ -107,12 +92,6 @@
               <item name="MidtermJuly2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="MidtermJuly2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermJuly2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermJuly2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MidtermJuly2019" type="b2602c69:ProjectViewProjectNode" />
@@ -161,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseQueue">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -182,13 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.CollectionView" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectionView" />
       <item itemvalue="Application.UseArrayList" />
       <item itemvalue="Application.UseMap" />
       <item itemvalue="Application.UseQueue" />
       <item itemvalue="Application.Anagram" />
+      <item itemvalue="Application.Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.UseArrayList" />
-        <item itemvalue="Application.CollectionView" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +270,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="113" width="1440" height="816" extended-state="0" />
+    <frame x="116" y="143" width="1440" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
@@ -568,6 +547,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -575,10 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
