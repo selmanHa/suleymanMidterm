@@ -142,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateWord">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -250,8 +250,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuplicateWord" />
         <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.DuplicateWord" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.UseMap" />

@@ -9,12 +9,12 @@ public class Palindrome {
           Palindrome. So write java code to check if a given String is Palindrome or not.
          */
 
-        String word = "";
+        String word1 = "";
         Scanner sc = new Scanner(System.in);
         System.out.print("Please enter your word to check if it is palindrome: ");
-        word = sc.nextLine();
+        word1 = sc.nextLine();
 
-        checkPalindrome(word);
+        checkPalindrome(word1);
 
 
     }
