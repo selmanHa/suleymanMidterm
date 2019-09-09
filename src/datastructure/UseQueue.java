@@ -20,6 +20,7 @@ public class UseQueue {
 		qu.add("Last Name: ");
 		qu.add("ID: ");
 		qu.add("Email: ");
+		qu.add("Address: ");
 
 		Iterator<String> it = qu.iterator();
 
