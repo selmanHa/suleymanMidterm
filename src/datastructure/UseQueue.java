@@ -29,6 +29,16 @@ public class UseQueue {
 
 		System.out.println("\nThe head of the Queue is: "+qu.peek());
 		System.out.println("                       ================");
+
+		//remove data
+		qu.remove("Last Name: ");
+
+		//printing data after data removal
+		Iterator itr = qu.iterator();
+		System.out.println("\nLists after data removal: ");
+		while (itr.hasNext()){
+			System.out.println(itr.next());
+		}
 	}
 
 }
