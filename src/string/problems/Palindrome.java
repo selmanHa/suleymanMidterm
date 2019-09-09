@@ -25,7 +25,7 @@ public class Palindrome {
 
         for (int i = wordLength-1; i>=0; i--)
             readToBack = readToBack + word.charAt(i);
-        
+
             if (word.equals(readToBack))
                 System.out.println("The word you entered is palindrome.");
             else
