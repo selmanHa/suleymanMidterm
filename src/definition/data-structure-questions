@@ -1,36 +1,105 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+To sort and organize data.
 
 
 What are the various operations that can be performed on different Data Structures?
+Data insertion
+Data Update
+Retrieving Data
+
 List out the areas in which data structures are applied extensively?
+There are many, but some of them are:
+Graphics, Statical analysis, operating system, AI, compiler design, Numerical analysis, Simulation, etc...
+
 what is an Array?
+An object to serve as a data container, but limited (sized)
+
 what is the difference between the Array and ArrayList?
+Array is limited, but ArrayList grows dynamically.
+
 what is LinkedList?
+It is a linear data structure in which thee elements are linked using pointers.
+
 How is an Array different from Linked List?
+An array contains a collection of similar type data elements but the Linked list is
+a non-primitive and contains a collection of unordered linked elements known as nodes.
+
 what is queue?
+It is a way of inserting data at the end of the queue and removing data from the beginning of the queue.
+
 what is stack?
+A container of object which follows the order of LIFO when inserting and removing data.
+
 what is FIFO and LIFO?
+Both are the ordering of data, means FILO--->First in Last out and LIFO--->Last in First out.
+
 what is the order of complexity?
+It is a way of identifying the speed of the particular algorithm, how fast or slow it performs the operatons.
+
 what is the best case to search an element from an array?
+It is a minimal number of steps when inputting data of n elements.
+
 what is the worst case to search an element from an array?
+It is a maximum number of steps when inputting data of n elements.
+
 what is tree in data structure?
+It is a nonlinear and is a structure of consisting of one node, root, and zero or one or more subtrees.
+
 what is graph in data structure?
+It is also a nonlinear, but it is a consisting of nodes and edges.
+
 what is the difference between the HashTable and HashMap?
+HashMap allows a null value, while HashTable doesn't.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS==> Array
+Network data model==> Graph
+Hierarchical==> Trees
+
 How HashMap works in java?
+Since it contains array of nodes, the Node represent a class having different objects like int hash, key, and value.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+It is a runtime exception which is thrown only at runtime. It occurs when we try to access an element of an array,
+with negative value of index or more than its size.
+
 What are the different ways of copying an array into another array?
+The basic one is manually. The other ways are Array.copyOf(), System.arraycopy(), and Object.clone().
+
 What is difference between an array and a linked list?
+An array contains a collection of similar type data elements but the Linked list is
+a non-primitive and contains a collection of unordered linked elements known as nodes.
+
 What is DFS and BFS?
+First defining their name: DFS is Depth First Search, and BFS is Breath First Search. Going back to their actions,
+when DFS is a edge-based technique and used stack data structure, BFS is vertex-based technique and uses Queue data
+structure.
+
 What is Recursion?
+It is a way of problem solving by breaking down a problem into smaller sub-problems until they get to smaller enough and
+ready to be solved.
+
 What are linear and non linear data Structures?
+Based on the implementation, Linear is simpler than non-linear, non-linear is effective when it comes memory utilization,
+and trees and graphs are best examples for non-linear while array, queue, stack, and linked list are examples of linear.
+
 What is Big-(O)-notation?
+It is a mathematical notation that is used in computer science to describe the complexity of an algorithm.
+
 Outlined different kind of sorting algorithm with time complexity?
+              Base        Worst
+Insertion--> 0(n)         0(n^2)
+Bubble ----> 0(n)         0(n^2)
+Selection--> 0(n^2)       0(n^2)
+Quick------> 0(n log(n))  0(n^2)
+Merge------> 0(n log(n))  0(n log(n))
+Heap-------> 0(n log(n))  0(n log(n))
+Bucket-----> 0(n+k)       0(n^2)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
